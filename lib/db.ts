@@ -2,9 +2,6 @@
 
 import fs from "fs"
 import { parse } from "csv-parse/sync"
-import sqlite3 from "sqlite3"
-import { open } from "sqlite"
-
 // Health data structure
 export type HealthData = {
   deviceId: string
